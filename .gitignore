@@ -1,3 +1,4 @@
+HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
@@ -9,7 +10,6 @@
 .settings
 .springBeans
 .sts4-cache
-.metadata
 
 ### IntelliJ IDEA ###
 .idea
@@ -19,8 +19,13 @@
 
 ### NetBeans ###
 /nbproject/private/
-/build/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
+/build/
+
+### MVN ###
+/.mvn/
+mvnw
+mvnw.cmd
